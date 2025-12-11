@@ -1,0 +1,51 @@
+.thumnail-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 110px;
+  margin-top: 120px;
+}
+
+.thumnail > img {
+  max-width: 450px;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.avt img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.about-title {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.title p {
+  margin: 0;
+}
+
+.channel-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.title {
+  margin-top: 20px;
+}
+
+.total {
+  margin-top: 10px;
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .thumnail-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 110px;
+    margin-top: 120px;
+  }
+}

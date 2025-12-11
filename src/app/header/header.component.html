@@ -1,0 +1,29 @@
+<div class="header-container">
+  <div class="left-section">
+    <button class="btn-burger-menu">
+      <img src="../../assets/icon/hamburger-menu.svg" alt="" />
+    </button>
+    <button class="btn-youtube">
+      <img src="../../assets/icon/youtube-logo.svg" alt="" />
+    </button>
+  </div>
+  <div class="mid-section">
+    <input class="search-input" type="text" placeholder="Search" />
+    <button class="btn-search">
+      <img src="../../assets/icon/search.svg" alt="" />
+    </button>
+    <button class="btn-voice-search">
+      <img src="../../assets/icon/voice-search-icon.svg" alt="" />
+    </button>
+  </div>
+  <div class="right-section">
+    <button class="btn-create">+ Tạo</button>
+    <button class="btn-noti">
+      <img src="../../assets/icon/notifications.svg" alt="" />
+    </button>
+    <button (click)="buttonClick()" class="btn-channel">
+      <img src="../../assets/img/unnamed.jpg" alt="" />
+      <app-drop-menu *ngIf="bat"></app-drop-menu>
+    </button>
+  </div>
+</div>

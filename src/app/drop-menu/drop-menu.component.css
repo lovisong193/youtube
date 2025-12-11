@@ -1,0 +1,64 @@
+.drop-menu {
+  height: 80%;
+  width: 300px;
+  position: absolute;
+  top: 2px;
+  right: 60px;
+
+  font-size: 16px;
+}
+
+.color {
+  background-color: #fff;
+}
+
+.my-channel {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  border-bottom: solid 1px rgb(196, 196, 196);
+}
+
+.google,
+.studio,
+.data,
+.lorem {
+  border-bottom: solid 2px rgb(196, 196, 196);
+}
+
+.my-channel img {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.my-channel2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.my-channel2 p {
+  margin: 5px 10px;
+}
+
+.my-channel2 a {
+  margin-bottom: 5px;
+}
+
+.google,
+.studio,
+.data,
+.lorem,
+.pp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.studio a {
+  margin-top: 10px;
+}
+
+.pp {
+  margin-left: 7px;
+}
