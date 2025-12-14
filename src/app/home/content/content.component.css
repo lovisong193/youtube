@@ -1,0 +1,37 @@
+.thumnail-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thumnail > img {
+  height: 250px;
+  margin-right: 10px;
+}
+
+.avt > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.about-title {
+  display: flex;
+  flex: 50px auto;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.channel-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.total p {
+  margin: 0;
+  font-size: 18px;
+  color: rgb(111, 111, 111);
+}

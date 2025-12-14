@@ -1,0 +1,27 @@
+.below-header-container {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  margin: 0 20px 20px 20px;
+  background-color: #fff;
+  height: 60px;
+  align-items: center;
+}
+
+.below-header-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.below-header-container button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.15s;
+}

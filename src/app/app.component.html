@@ -1,2 +1,11 @@
-<app-header></app-header> <app-sidebar></app-sidebar>
-<app-thumnail></app-thumnail>
+<div class="header-wrapper" style="height: 60px; background-color: #fff">
+  <app-header></app-header>
+</div>
+<div style="margin-bottom: 100px"><app-below-header></app-below-header></div>
+<div><app-drop-menu></app-drop-menu></div>
+<div class="layout-container" style="display: flex">
+  <div style="flex: 10%" class="sidebar"><app-sidebar></app-sidebar></div>
+  <div style="flex: 90%">
+    <router-outlet></router-outlet>
+  </div>
+</div>
